@@ -57,7 +57,7 @@ class Venta:
                     tipo = input("ingrese el tipo de comida: \n 1.hamburguesita \n 2.perro \n 3.papas \n")
                     match tipo:
                         case "1":
-                            tipo= "hamburgesita"
+                            tipo= "hamborguesita"
                         case "2":
                             tipo="perro"
                         case "3":
@@ -78,7 +78,7 @@ class Venta:
                             print("tamaño invalido")
 
                     precio = 0
-                    if tipo == "hamburgesita":
+                    if tipo == "hamborguesita":
                         if tamano == "grande":
                             precio = 20000
                         elif tamano == "mediano":
@@ -130,7 +130,4 @@ class Venta:
                     print("opcion invalida")
 
 venta=Venta()
-venta.agregar_perrito()
-
-
-      
+venta.agregar_perrito()   
